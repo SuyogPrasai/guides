@@ -45,9 +45,8 @@
   --radius-3xl: calc(var(--radius) + 12px);
   --radius-4xl: calc(var(--radius) + 16px);
 }
-
 :root {
-  --radius: 0.625rem;
+  --radius: 0.65rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
@@ -71,6 +70,7 @@
   --chart-3: oklch(0.398 0.07 227.392);
   --chart-4: oklch(0.828 0.189 84.429);
   --chart-5: oklch(0.769 0.188 70.08);
+  --radius: 0.625rem;
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
   --sidebar-primary: oklch(0.205 0 0);
@@ -114,6 +114,50 @@
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
 }
+
+.theme-ocean {
+  --background: oklch(1.0000 0 0);
+  --foreground: oklch(0.1551 0.0133 270.4352);
+  --card: oklch(1.0000 0 0);
+  --card-foreground: oklch(0.1551 0.0133 270.4352);
+  --popover: oklch(1.0000 0 0);
+  --popover-foreground: oklch(0.1551 0.0133 270.4352);
+  --primary: oklch(0.6305 0.1123 227.4281);
+  --primary-foreground: oklch(1.0000 0 0);
+  --secondary: oklch(0.9683 0.0069 247.8956);
+  --secondary-foreground: oklch(0.2077 0.0398 265.7549);
+  --muted: oklch(0.9842 0.0034 247.8575);
+  --muted-foreground: oklch(0.3717 0.0392 257.2870);
+  --accent: oklch(0.9514 0.0250 236.8242);
+  --accent-foreground: oklch(0.3912 0.0845 240.8759);
+  --destructive: oklch(0.5143 0.1978 16.9350);
+  --destructive-foreground: oklch(1.0000 0 0);
+  --border: oklch(0.8690 0.0198 252.8943);
+  --input: oklch(0.7107 0.0351 256.7878);
+  --ring: oklch(0.6305 0.1123 227.4281);
+
+  --chart-1: oklch(0.6305 0.1123 227.4281);
+  --chart-2: oklch(0.5000 0.1193 242.7490);
+  --chart-3: oklch(0.6847 0.1479 237.3225);
+  --chart-4: oklch(0.8276 0.1013 230.3179);
+  --chart-5: oklch(0.9014 0.0555 230.9024);
+
+  --sidebar: oklch(0.9842 0.0034 247.8575);
+  --sidebar-foreground: oklch(0.2077 0.0398 265.7549);
+  --sidebar-primary: oklch(0.6305 0.1123 227.4281);
+  --sidebar-primary-foreground: oklch(1.0000 0 0);
+  --sidebar-accent: oklch(0.9683 0.0069 247.8956);
+  --sidebar-accent-foreground: oklch(0.6305 0.1123 227.4281);
+  --sidebar-border: oklch(0.9288 0.0126 255.5078);
+  --sidebar-ring: oklch(0.6305 0.1123 227.4281);
+
+  --font-sans: "Inter", "SF Pro Display", -apple-system, sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: monospace;
+
+  --radius: 0.75rem;
+}
+
 
 @layer base {
   * {
