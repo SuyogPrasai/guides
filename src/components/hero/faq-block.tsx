@@ -45,20 +45,20 @@ const faqItems: FaqItem[] = [
   },
 ]
 
-const FaqBlock1 = () => {
+const FaqBlock = () => {
   return (
     <div className='w-full px-8 py-16'>
       <div className='mx-auto max-w-4xl'>
         <div className='mb-12 text-center'>
           <h2 className='mb-4 text-4xl font-bold'>Frequently asked questions</h2>
-          <p className='text-muted-foreground'>Everything you need to know about our different services.</p>
+          <p className='text-muted-foreground font-normal'>Everything you need to know about our different services.</p>
         </div>
 
         <Accordion type='multiple' className='space-y-4'>
           {faqItems.map(item => (
             <AccordionItem key={item.value} value={item.value} className='rounded-md !border'>
               <AccordionTrigger className='cursor-pointer px-4'>{item.question}</AccordionTrigger>
-              <AccordionContent className='text-muted-foreground px-4'>{item.answer}</AccordionContent>
+              <AccordionContent className='text-muted-foreground px-4 font-light'>{item.answer}</AccordionContent>
             </AccordionItem>
           ))}
         </Accordion>
@@ -67,4 +67,4 @@ const FaqBlock1 = () => {
   )
 }
 
-export default FaqBlock1
+export default FaqBlock

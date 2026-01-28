@@ -71,13 +71,13 @@ const socialIcons = [
 export default function Footer() {
   return (
     <footer className="relative border-t border-border bg-background">
-      <div className="container mx-auto px-4 py-16 lg:px-12">
+      <div className="container mx-auto px-4 py-16 lg:px-12 max-w-4xl">
         {/* Main Content */}
         <div className="grid grid-cols-1 gap-12 md:grid-cols-3">
           {/* Brand */}
           <div>
             <h2 className="mb-4 text-3xl font-bold tracking-tight text-foreground">
-              PAREWA
+              Guides
             </h2>
             <p className="mb-6 max-w-xs text-sm text-muted-foreground">
               Parewa is a student-driven information delivery platform developed
@@ -104,9 +104,9 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-14 border-t border-border pt-6 text-center text-xs text-muted-foreground">
           <p>
-            © {new Date().getFullYear()} PAREWA. All rights reserved.
+            © {new Date().getFullYear()} Guides. All rights reserved.
           </p>
-          <p className="mt-1">6229 Suyog</p>
+          <p className="mt-1">Guides</p>
         </div>
       </div>
     </footer>

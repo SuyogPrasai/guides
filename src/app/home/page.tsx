@@ -1,5 +1,5 @@
 import ContactSection1 from "@/components/hero/contact-section-1";
-import FaqBlock1 from "@/components/hero/faq-block-1";
+import FaqBlock from "@/components/hero/faq-block";
 import Footer from "@/components/layout/footer7";
 import Navbar from "@/components/layout/header";
 import LogoCloud1 from "@/components/hero/logo-cloud-1";
@@ -12,8 +12,7 @@ export default function Home() {
     <div className="">
       <Navbar />
       <StorefrontHero1 />
-      <FaqBlock1 />
-      <PricingSection1 />
+      <FaqBlock />
       <Testimonial1 />
       <LogoCloud1 />
       <ContactSection1 />

@@ -54,14 +54,6 @@ const LogoCloud1 = ({ className }: { className?: string }) => {
     <section className={cn('relative w-full py-12 md:py-16', className)}>
       <div className='container mx-auto px-4 md:px-6'>
         <div className='mx-auto max-w-5xl'>
-          {/* Header */}
-          <div className='mb-12 space-y-4 text-center'>
-            <div className='flex items-center justify-center gap-2'>
-              <Sparkles className='text-primary size-5' />
-              <span className='text-primary text-sm font-medium'>ShadcnStore Integrations</span>
-            </div>
-            <p className='text-muted-foreground'>Works perfectly with ShadcnStore components and your favorite tools</p>
-          </div>
 
           {/* Logo Grid */}
           <div className='relative overflow-hidden'>
@@ -75,12 +67,6 @@ const LogoCloud1 = ({ className }: { className?: string }) => {
             </div>
           </div>
 
-          {/* Bottom Text */}
-          <div className='mt-12 text-center'>
-            <p className='text-muted-foreground text-sm'>
-              More integrations available through ShadcnStore's extensive component library
-            </p>
-          </div>
         </div>
       </div>
     </section>
